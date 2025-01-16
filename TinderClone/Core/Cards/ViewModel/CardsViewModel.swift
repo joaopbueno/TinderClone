@@ -9,6 +9,7 @@ import Foundation
 
 class CardsViewModel: ObservableObject {
     @Published var cardModel = [CardModel]()
+    @Published var buttonSwipeAction: SwipeAction?
     
     private let service: CardService
     
